@@ -1,5 +1,5 @@
 {% set name = "kydlib" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/afraniomelo/KydLIB/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 691c55cda53bb43f1faf1d7cde27fbd28798e77f119b1c61fc8f527583a8e071
+  sha256: b1c4c40964049514954ead6359b5129c8af3e456ebd4c99df210251510e7cb30
 
 build:
   noarch: python
